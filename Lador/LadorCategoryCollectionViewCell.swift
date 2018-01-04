@@ -16,9 +16,9 @@ class LadorCategoryCollectionViewCell: UICollectionViewCell {
   
         //image
        
-        var image = UIImageView(frame:CGRect(x:self.frame.width/2 - 40 ,y:self.contentView.frame.height/2 - 40 ,width:80,height:80))
+        var image = UIImageView(frame:CGRect(x:self.frame.width/2 - 40 ,y:self.contentView.frame.height/2 - 60 ,width:80,height:80))
 
-        var label = UILabel(frame:CGRect(x:image.frame.origin.x - 40   ,y:image.frame.origin.y + 80  ,width:170,height:50))
+        var label = UILabel(frame:CGRect(x:image.frame.origin.x - 40   ,y:image.frame.origin.y + 82  ,width:170,height:50))
         label.text = model.name
         label.textAlignment = .center
         label.font = UIFont(name: "Aracne" , size: 40)
