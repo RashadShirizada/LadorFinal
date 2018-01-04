@@ -91,10 +91,9 @@ class ProductListViewController: UIViewController,UITableViewDataSource,UITableV
                     cell.backgroundColor = UIColor.clear
                     cell.tag = indexPath.row
                     cell.updateUI(model: listOfProducts[indexPath.row],row: indexPath.row,cell:cell);
-                var imageView = UIImageView(frame:CGRect(x:39,y:0,width:cell.frame.width - 78,height:cell.frame.height - 53.6))
+                var imageView = UIImageView(frame:CGRect(x:30,y:0,width:cell.frame.width - 80,height:cell.frame.height - 53.6))
                 imageView.image = UIImage(named:"border")
                 cell.addSubview(imageView)
-                    print("cell = \(cell)")
                 
                 return cell
             }
