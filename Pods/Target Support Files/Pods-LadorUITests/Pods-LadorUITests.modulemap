@@ -1,0 +1,6 @@
+framework module Pods_LadorUITests {
+  umbrella header "Pods-LadorUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
